@@ -1,0 +1,153 @@
+
+body{
+
+    background-color: bee3db;
+    margin: 0;
+}
+ 
+.coluna-50{
+    width: 50%;
+}
+
+#contatos{
+
+    left: 1000px;
+    padding: 0 10px 0 10px;
+    position: fixed;
+    top: 30px;
+}
+
+#espaco{
+
+    font-size: 200%;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+.contato{
+
+    align-items: stretch;
+    background-color:  rgb(0, 128, 128);
+    color: #ffffff;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    margin: 0;
+    margin-bottom: 0px;
+    padding: 12px;
+    padding-bottom: 0px;
+}
+
+footer{
+
+    background-color:rgb(0, 128, 128) ;
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    margin-top: 0px;
+    padding: 0px 150px 0px 150px;
+    text-align: center;
+}
+
+h1{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+hr{
+
+    border-color: #19ADAB;
+}
+
+.imagemateria, .materia{
+
+    display: block;
+    width: 500px;
+    border-radius: 10px;
+}
+
+img,p,#buscar {
+
+    text-align: center;
+    display: inline-block;
+}
+
+.mailto{
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+nav ul{
+
+    display: flex;
+    flex-direction: row;
+    background-color: bee3db;
+    box-shadow: 0px 5px 5px rgb(0, 128, 128);
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 100px;
+    padding: 12px;
+    text-decoration: none;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: rgb(0, 128, 128);
+}
+
+nav ul li a:hover {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 2px solid #000000;
+}
+
+.post{
+    border: solid 2px teal;
+    border-radius: 10px;
+    font-family: 'Playfair Display', serif;
+    margin: 25px 180px 25px 180px;
+    padding: 16px;
+    display: flex;
+    align-items: justify;
+
+}
+
+.post:hover{
+    color: rgb(0, 128, 128) ;
+}
+
+#seta{
+    position: fixed;
+    top: 350px;
+    left: 5px;
+}
+
+#text{
+    background-color: rgb(0, 128, 128);
+    font-family: 'Playfair Display', serif;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#buscar{
+    background: url(https://image.flaticon.com/icons/png/512/68/68213.png) no-repeat;
+    background-size: 15px;
+    border-color:transparent;
+    background-position: 2px 1px;
+    float: right;
+    margin-top: 35px;
+ }
+
+ #buscar:focus{
+    
+     background-color:bee3db;
+     font-family: Arial;
+     animation-name: buscar;
+     animation-duration: 4s;  
+     -webkit-transform:scaleX(1.2);
+     transform:scaleX(1.2);
+    }
